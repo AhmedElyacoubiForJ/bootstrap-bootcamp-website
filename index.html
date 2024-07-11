@@ -13,22 +13,21 @@
     />
   </head>
   <body>
+    <!-- Navbar -->
     <!-- navbar-dark to make the text light -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
       <!-- some spaces on the left -->
       <div class="container">
         <a href="#" class="navbar-brand">Frontend Bootcamp</a>
         <!-- button to toggle the navigation links -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navmenu"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse" id="navmenu">
           <!-- Navigation links go here -->
@@ -47,6 +46,38 @@
         </div>
       </div>
     </nav>
+
+    <!-- Showcase -->
+    <!-- text-sm-start to align text smart endpoint -->
+     <!-- mt-1 is only to see that is a component above TODO is to romve it later -->
+    <section class="bg-dark text-light p-5 mt-1 text-center text-sm-start">
+      <!-- some spaces on the left -->
+      <div class="container">
+        <!-- to become 2 coponents in one row -->
+        <!-- d-sm-flex don't display it as flex if the screen is small (down for small Device & Up for Normal in one line) -->
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Become a <span class="text-warning">Web Developer</span></h1>
+            <!-- lead class to make the text bold and big. my-4 to make more space relative to the above component -->
+            <p class="lead my-4">
+              Learn web development from scratch, get certified, and build your
+              own projects.
+            </p>
+            <!-- button class to make it look like a button -->
+            <button href="#" class="btn btn-primary btn-lg">
+              Start The Enrollment
+            </button>
+          </div>
+          <!-- img-fluid class to bound the image in the container, w-50 only 50% of the size -->
+          <!-- d-none d-sm-block to hide this image when the screen size is small -->
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="img/showcase.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
