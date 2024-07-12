@@ -1,4 +1,5 @@
 /* This CSS code adds a pseudo-element before the body element, creating a block with a specified height. */
+/* a gohst element to push showcase section down */
 body::before {
   display: block;
   content: "";
@@ -10,4 +11,11 @@ body::before {
   .news-input {
     width: 50%;
   }
+}
+
+/* Custom CSS for equal height cards */
+.equal-height {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
 }

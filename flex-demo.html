@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flex DEMO</title>
+  </head>
+  <body>
+    <!--
+        In this example,
+        the .flex-container has display: flex, flex-direction: column,
+        and align-items: stretch.
+        This means that all the .flex-item elements will stretch to fill the available vertical space.
+        The height of the .flex-container is set to 200px,
+        but the .flex-item elements will still stretch to fill the entire height of the container.
+    -->
+    <div class="container">
+      <div class="flex-container">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+      </div>
+    </div>
+
+    <style>
+      .container {
+        display: flex;
+        height: 200px;
+      }
+
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        height: 100%;
+      }
+
+      .flex-item {
+        background-color: #f1f1f1;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #ccc;
+      }
+    </style>
+  </body>
+</html>

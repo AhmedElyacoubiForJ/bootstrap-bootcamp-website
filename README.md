@@ -8,4 +8,6 @@
 
 [Bootstrap Icons](https://blog.getbootstrap.com/2021/01/07/bootstrap-icons-1-3-0/)
 
+[Accordion](https://getbootstrap.com/docs/5.3/components/accordion/)
+
 [unDraw](https://undraw.co/illustrations)
