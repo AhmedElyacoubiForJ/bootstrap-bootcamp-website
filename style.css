@@ -1,5 +1,13 @@
-@Media(min-width: 768px) {
-    .news-input {
-        width: 50%;
-    }
+/* This CSS code adds a pseudo-element before the body element, creating a block with a specified height. */
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+/* This media query applies styles to .news-input class when the viewport width is 768px or more. */
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
 }
