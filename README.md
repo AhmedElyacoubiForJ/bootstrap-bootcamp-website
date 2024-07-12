@@ -10,7 +10,11 @@
 
 [Accordion](https://getbootstrap.com/docs/5.3/components/accordion/)
 
+[Modal](https://getbootstrap.com/docs/5.3/components/modal/)
+
 [unDraw](https://undraw.co/illustrations)
+
+[Hostinger](https://www.hostinger.de/?utm_campaign=Brand-Exact|NT:Se|LO:DE&utm_medium=ppc&gad_source=1&gclid=CjwKCAjwqMO0BhA8EiwAFTLgIBDg7tFYhXKkDQnYf0lIBe3caAvf9N4gFZZ9rj0eWIIrodc-FZQn5BoC7yQQAvD_BwE)
 
 > A Bootstrap row can hold a maximum of 12 columns due to  its 12-column grid system.
 >
