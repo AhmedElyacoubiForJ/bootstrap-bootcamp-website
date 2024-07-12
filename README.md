@@ -11,3 +11,26 @@
 [Accordion](https://getbootstrap.com/docs/5.3/components/accordion/)
 
 [unDraw](https://undraw.co/illustrations)
+
+> A Bootstrap row can hold a maximum of 12 columns due to  its 12-column grid system.
+>
+> **In these code snippet**
+>
+> We have a row with 6 columns (col-md-6) 
+> and another with 3 columns (col-lg-3).
+>
+> To maintain the 12-column limit, we can add another 3 columns to the row with 6 columns.
+
+```html
+<div class="row">
+  <div class="col-md-6">
+    <!-- Content for the first column -->
+  </div>
+  <div class="col-md-3">
+    <!-- Content for the second column -->
+  </div>
+  <div class="col-md-3">
+    <!-- Content for the third column -->
+  </div>
+</div>
+´´´
