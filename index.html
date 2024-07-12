@@ -471,10 +471,70 @@
       </div>
     </section>
 
+    <!-- Contact & Map -->
+    <section class="p-5">
+      <div class="container">
+        <row class="g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact Info</h2>
+            <ul class="list-group list group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location:</span> 50 Main st Boston MA
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Enrollement Phone:</span> (555) 555-5555
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Student Phone:</span> (555) 555-5333
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Enrollement Email:</span>
+                enroll@frontendbc.test
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Student Email:</span>
+                student@frontendbc.test
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <div id="map">
+              <!-- Map will be inserted here TODO LATER cause of !API-KEY --> 
+            </div>
+          </div>
+        </row>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <!-- <script>
+      function initMap() {
+        const map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: -34.397, lng: 150.644 },
+          zoom: 8,
+        });
+      }
+    </script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+      async
+      defer
+    ></script> -->
   </body>
 </html>
+
+
+<!--
+ there are several free APIs available that provide map data. One popular option is Google Maps JavaScript API.
+ Here's how you can add a map to your HTML using the Google Maps API:
+
+1. First, sign up for a Google Cloud Platform (GCP) account if you don't have one already.
+2. Enable the Google Maps JavaScript API for your project.
+3. Get an API key from the Google Cloud Console.
+-->
